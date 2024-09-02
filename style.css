@@ -1,0 +1,30 @@
+*{
+    color: var(--fontcolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--bg);
+}
+:root{
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+ul{
+    font-family: Helvetica, sans-serif;
+}
+li{
+    list-style: circle;
+}
+.lista{
+    list-style: square;
+}
+
+.light-theme{
+   --bg:var(--white);
+   --fontcolor:var(--green);
+}
+.dark-theme{
+    --bg:var(--black);
+    --fontcolor:var(--green);
+}
