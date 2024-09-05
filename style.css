@@ -19,12 +19,29 @@ li{
 .lista{
     list-style: square;
 }
+:root {
+    --background-color: white;
+    --text-color: black;
+}
 
-.light-theme{
-   --bg:var(--white);
-   --fontcolor:var(--green);
+/* Estilos para o tema claro */
+.light-theme {
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
-.dark-theme{
-    --bg:var(--black);
-    --fontcolor:var(--green);
+
+/* Define as variáveis de cor para o tema escuro */
+.dark-theme {
+    --background-color: black;
+    --text-color: white;
 }
+
+/* Estilos para o tema escuro */
+.dark-theme {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+
+    
